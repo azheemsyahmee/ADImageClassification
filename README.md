@@ -103,3 +103,10 @@ This repository is pre-configured for 1-click continuous deployment on [Streamli
 2. Log into Streamlit Cloud, connect your GitHub account, and select this repository.
 3. Set the Main file path to `app.py`.
 4. Deploy! Streamlit Cloud automatically installs dependencies from `requirements.txt`.
+
+
+---
+
+## Dataset Provenance & Attribution
+
+The underlying models were trained using brain MRI slices originating from the **Open Access Series of Imaging Studies (OASIS)** initiative (Marcus et al., 2007), accessed via the [Kaggle imagesoasis distribution](https://www.kaggle.com/datasets/ninadaithal/imagesoasis/data). Raw MRI scans are not redistributed within this repository. Users must obtain the dataset directly from Kaggle and observe the respective platform access terms.
